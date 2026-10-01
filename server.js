@@ -21,3 +21,4 @@ function createService(){
 }
 if(require.main===module)createService().server.listen(process.env.PORT||8787,'0.0.0.0',()=>console.log('狼人杀服务已启动'));
 module.exports={createService};
+
